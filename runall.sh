@@ -3,11 +3,13 @@ echo "🌊 Starting CraftHaven Servers..."
 
 # Start Paper server
 cd paper_server
-bash run.sh &
+chmod +x run.sh
+./run.sh &
 
-# Go back and start Bungee
+# Return and start BungeeCord
 cd ../bungee_v2
-bash start.sh &
+chmod +x start.sh
+./start.sh &
 
 # Return to root
 cd ..
