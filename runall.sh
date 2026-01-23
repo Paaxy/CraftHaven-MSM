@@ -6,7 +6,7 @@ cd paper_server
 chmod +x run.sh
 ./run.sh &
 
-# Return and start BungeeCord
+# Start BungeeCord
 cd ../bungee_v2
 chmod +x start.sh
 ./start.sh &
